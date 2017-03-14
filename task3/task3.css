@@ -1,0 +1,323 @@
+html,
+body {
+    width: 100%;
+    background: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #505050;
+}
+
+header {
+    height: 85px;
+    width: 100%;
+    background: linear-gradient(to bottom, #f8f8f8 0%,#f0f0f0 100%);
+    border-bottom: 1px solid #d3d3d3;
+    box-shadow: 0 2px 2px #e3e3e3;
+}
+
+header .container{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .logo {
+    float: left;
+    width: 157px;
+    height: 100%;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+header .nav {
+    float: right;
+    width: 480px;
+    height: 100%;
+    padding-top: 30px;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: Arial, sans-serif ;
+}
+
+header .nav a,
+header .nav a:active,
+header .nav a:focus,
+header .nav a:link {
+    text-decoration: none;
+    color: #505050;
+    margin: 0 15px 0 35px;
+}
+
+header .nav a:first-child {
+    border: #dbdbdb 1px solid;
+    border-radius: 5px;
+    padding: 6px 18px;
+    margin: 0;
+    background: linear-gradient(to bottom, #ffffff 0%,#f0f0f0 100%);
+}
+
+header .nav a:last-child {
+    margin-right: 0;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+main .first {
+    border-bottom: 1px solid #d3d3d3;
+    box-shadow: 0 6px 9px #e3e3e3;
+}
+
+main .first div {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .first div p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+main .first div table {
+    margin-right: auto;
+    margin-left: auto;
+    width: 720px;
+    margin-bottom: 60px;
+}
+
+main .first div .first-stroke {
+    font-size: 105px;
+    font-weight: 800;
+    padding: 0 37px;
+    text-align: center;
+}
+
+main .first div .second-stroke {
+    font-size: 22px;
+    text-align: center;
+}
+
+main .second {
+    width: 940px;
+    height: 187px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+main .second div {
+    display: block;
+    float: left;
+    width: 300px;
+    height: 128px;
+    font-size: 13px;
+    margin: 0 5px;
+}
+
+main .second div:first-child {
+}
+
+
+main .second div img {
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+main .second div h3{
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+main .second div p {
+    clear: both;
+}
+
+main .buy-now {
+    clear: both;
+    border-bottom: 1px solid #d6d6d6;
+    border-top: 1px solid #d6d6d6;
+    height: 116px;
+    width: 100%;
+    background: #e9e9e9;
+}
+
+main .buy-now div {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .buy-now div h2 {
+    float: left;
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 25px;
+    text-shadow: 0 1px 1px #ffffff;
+    margin-left: 20px;
+}
+
+main .buy-now div .learn-more {
+    display: block;
+    float: left;
+    font-size: 27px;
+    width: 216px;
+    height: 50px;
+    border: 1px solid #63aac6;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #c0ebfa 3%,#abe4f8 3%,#abe4f8 3%,#72cff3 100%);
+    text-align: center;
+    padding-top: 10px;
+    color: #42788e;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #ffffff;
+    margin: 25px 10px 25px 50px;
+}
+
+main .buy-now div .get-the-demo {
+    display: block;
+    float: left;
+    font-size: 27px;
+    width: 216px;
+    height: 50px;
+    border: 1px solid #8fb052;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #d7e9a4 3%,#cae285 3%,#9eca56 100%);
+    text-align: center;
+    padding-top: 10px;
+    color: #647e38;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #ffffff;
+    margin: 25px 10px 25px 5px;
+}
+
+
+main .third {
+    display: block;
+    clear: both;
+    width: 940px;
+    height: 172px;
+    margin: 25px auto 25px auto;
+}
+
+main .third div {
+    display: block;
+    float: left;
+    width: 300px;
+    height: 128px;
+    font-size: 13px;
+    margin: 0 5px;
+}
+
+main .third div img {
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+main .third div h3{
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+main .third div p {
+    clear: both;
+}
+
+footer {
+    clear: both;
+    height: 265px;
+    width: 100%;
+    background: url("http://ipic.su/img/img7/fs/Shape5.1488804737.png");
+    box-shadow: inset 0 0 50px 0 rgba(0,0,0,0.75);
+
+}
+
+footer .down {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer .down div {
+    width: 223px;
+    display: inline-block;
+    float: left;
+    font-size: 13px;
+    margin: 10px 10px 0 0;
+    color: #d7d7d7;
+    font-weight: 300;
+}
+
+footer h3 {
+    font-size: 20px;
+    text-shadow: 0 2px 2px #000000;
+    font-weight: normal;
+    border-bottom: 1px solid #0d0d0d;
+    margin: 0;
+    padding: 10px 0;
+}
+
+footer .down div ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .down div li {
+    padding: 8px 0;
+    border-top: 1px solid #353535;
+    border-bottom: 1px solid #0d0d0d;
+}
+
+footer .down div li:last-child {
+    border-bottom: none;
+}
+
+footer .down div p {
+    border-top: 1px solid #353535;
+    margin: 0;
+    padding: 10px;
+}
+footer .down .column-4 .mail {
+    width: 220px;
+    /*border: 1px solid #000000;*/
+    height: 35px;
+    border-radius: 5px;
+    background: #232323;
+    color: #d7d7d7;
+    box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+    border-bottom: 1px solid #353535;
+}
+
+footer .down .column-4 .mail input[type="email"] {
+    float: left;
+    background: none;
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 135px;
+    color: #d7d7d7;
+    padding-left: 10px;
+}
+
+footer .down .column-4 .mail input[type="submit"] {
+    float: right;
+    width: 68px;
+    height: 25px;
+    outline: none;
+    background: linear-gradient(to bottom, #eaeaea 0%,#cfcfcf 100%);
+    border-radius: 5px;
+    border: 1px solid #232323;
+    margin: 5px 5px 0 0;
+}
