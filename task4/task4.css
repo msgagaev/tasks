@@ -183,3 +183,51 @@ header .nav-menu td .active {
     color: #fdcc05;
     text-transform: uppercase;
 }
+
+main {
+    width: 940px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+main .sub-menu {
+    float: left;
+    height: 372px;
+    width: 170px;
+    border-right: 1px solid #eaeaea;
+}
+
+main .sub-menu div {
+    float: left;
+    width: 75px;
+    height: 68px;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    margin: 0 6px 5px 0;
+    text-align: center;
+}
+
+main .sub-menu div p {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #777777;
+}
+
+main .sub-menu div img {
+    margin-top: 15px;
+}
+
+main .sub-menu .selected,
+main .sub-menu .selected p{
+    background: #555555;
+    color: #ffffff;
+}
+
+main .sub-menu div:hover,
+main .sub-menu div p:hover{
+    background: #555555;
+    color: #ffffff;
+}
