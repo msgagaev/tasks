@@ -3,6 +3,7 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
     <link href="task4.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
@@ -37,27 +38,51 @@
         <div class="nav-menu">
             <table>
                 <tr class="pic">
-                    <td><a href=""><img class="active" src="http://ipic.su/img/img7/fs/Home.1489481810.png"></a></td>
-                    <td><a href=""><img src="http://ipic.su/img/img7/fs/Photography.1489481861.png"></a></td>
-                    <td><a href=""><img src=http://ipic.su/img/img7/fs/Video.1489481898.png></a></td>
-                    <td><a href=""><img src=http://ipic.su/img/img7/fs/Environment.1489481937.png></a></td>
-                    <td><a href=""><img src=http://ipic.su/img/img7/fs/Travel.1489481920.png></a></td>
-                    <td><a href=""><img src=http://ipic.su/img/img7/fs/Adventure.1489481955.png></a></td>
-                    <td><a href=""><img src=http://ipic.su/img/img7/fs/TV.1489481969.png></a></td>
-                    <td><a href=""><img src=http://ipic.su/img/img7/fs/Kids.1489481990.png></a></td>
+                    <td><a href=""><img tgt="home" class="active" src="http://ipic.su/img/img7/fs/Home.1489481810.png"></a></td>
+                    <td><a href=""><img tgt="photography" src="http://ipic.su/img/img7/fs/Photography.1489481861.png"></a></td>
+                    <td><a href=""><img tgt="video" src=http://ipic.su/img/img7/fs/Video.1489481898.png></a></td>
+                    <td><a href=""><img tgt="environment" src=http://ipic.su/img/img7/fs/Environment.1489481937.png></a></td>
+                    <td><a href=""><img tgt="travel" src=http://ipic.su/img/img7/fs/Travel.1489481920.png></a></td>
+                    <td><a href=""><img tgt="adventure" src=http://ipic.su/img/img7/fs/Adventure.1489481955.png></a></td>
+                    <td><a href=""><img tgt="television" src=http://ipic.su/img/img7/fs/TV.1489481969.png></a></td>
+                    <td><a href=""><img tgt="kids" src=http://ipic.su/img/img7/fs/Kids.1489481990.png></a></td>
                 </tr>
                 <tr class="name">
-                    <td><a class="active" href="">home</a></td>
-                    <td><a href="">photography</a></td>
-                    <td><a href="">video</a></td>
-                    <td><a href="">environment</a></td>
-                    <td><a href="">travel</a></td>
-                    <td><a href="">adventure</a></td>
-                    <td><a href="">television</a></td>
-                    <td><a href="">kids</a></td>
+                    <td><a tgt="home" class="active" href="">home</a></td>
+                    <td><a tgt="photography" href="">photography</a></td>
+                    <td><a tgt="video" href="">video</a></td>
+                    <td><a tgt="environment" href="">environment</a></td>
+                    <td><a tgt="travel" href="">travel</a></td>
+                    <td><a tgt="adventure" href="">adventure</a></td>
+                    <td><a tgt="television" href="">television</a></td>
+                    <td><a tgt="kids" href="">kids</a></td>
                 </tr>
             </table>
         </div>
+        <script>
+            $( ".nav-menu .pic img" ).hover(
+                function() {
+                    var tgt = $( this ).attr('tgt');
+                    $('.nav-menu .name a[tgt='+tgt+']').addClass('active');
+                    $( this ).addClass('active');
+                }, function() {
+                    var tgt = $( this ).attr('tgt');
+                    $('.nav-menu .name a[tgt='+tgt+']').removeClass('active');
+                    $( this ).removeClass('active');
+                }
+            );
+            $( ".nav-menu .name a" ).hover(
+                function() {
+                    var tgt = $( this ).attr('tgt');
+                    $('.nav-menu .pic img[tgt='+tgt+']').addClass('active');
+                    $( this ).addClass('active');
+                }, function() {
+                    var tgt = $( this ).attr('tgt');
+                    $('.nav-menu .pic img[tgt='+tgt+']').removeClass('active');
+                    $( this ).removeClass('active');
+                }
+            );
+        </script>
     </header>
 
     <main>
